@@ -1,0 +1,20 @@
+PODS:
+  - ReSwift (2.0.0)
+  - ReSwiftRecorder (0.3.0):
+    - ReSwift (~> 2.0)
+  - ReSwiftRouter (0.3.0):
+    - ReSwift (~> 2.0)
+
+DEPENDENCIES:
+  - ReSwift
+  - ReSwiftRecorder
+  - ReSwiftRouter
+
+SPEC CHECKSUMS:
+  ReSwift: 7abc536a87955c34bf60de3fd32ce9a02ee3ad87
+  ReSwiftRecorder: 1b7d0c32d0b37eb211fa6828ff79c4dc7d257e11
+  ReSwiftRouter: 78f913bd3621174ce7552e4d2addadb723109293
+
+PODFILE CHECKSUM: 5defb8f004295267a934bd264247220fa2466f0a
+
+COCOAPODS: 1.0.1
