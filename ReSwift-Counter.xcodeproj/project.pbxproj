@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		58BCDB5A7E165C28E9821443 /* Pods_ReSwift_Counter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 015BBFAC2AA92B2BAD2194F5 /* Pods_ReSwift_Counter.framework */; };
+		5E0B77711D2E4D7E004F1C17 /* CounterActions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E0B77701D2E4D7E004F1C17 /* CounterActions.swift */; };
+		5E0B77731D2E4DE3004F1C17 /* CounterReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E0B77721D2E4DE3004F1C17 /* CounterReducer.swift */; };
 		C3C1F9E31D2D52530028E783 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3C1F9E21D2D52530028E783 /* AppDelegate.swift */; };
 		C3C1F9E51D2D52530028E783 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3C1F9E41D2D52530028E783 /* ViewController.swift */; };
 		C3C1F9E81D2D52530028E783 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3C1F9E61D2D52530028E783 /* Main.storyboard */; };
@@ -19,6 +21,8 @@
 /* Begin PBXFileReference section */
 		015BBFAC2AA92B2BAD2194F5 /* Pods_ReSwift_Counter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReSwift_Counter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4616FCC4402419CD171545C0 /* Pods-ReSwift-Counter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReSwift-Counter.release.xcconfig"; path = "Pods/Target Support Files/Pods-ReSwift-Counter/Pods-ReSwift-Counter.release.xcconfig"; sourceTree = "<group>"; };
+		5E0B77701D2E4D7E004F1C17 /* CounterActions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CounterActions.swift; sourceTree = "<group>"; };
+		5E0B77721D2E4DE3004F1C17 /* CounterReducer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CounterReducer.swift; sourceTree = "<group>"; };
 		C3C1F9DF1D2D52530028E783 /* ReSwift-Counter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ReSwift-Counter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3C1F9E21D2D52530028E783 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C3C1F9E41D2D52530028E783 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -97,6 +101,7 @@
 		C3C1F9F41D2D56B70028E783 /* Actions */ = {
 			isa = PBXGroup;
 			children = (
+				5E0B77701D2E4D7E004F1C17 /* CounterActions.swift */,
 			);
 			name = Actions;
 			sourceTree = "<group>";
@@ -104,6 +109,7 @@
 		C3C1F9F51D2D56D80028E783 /* Reducers */ = {
 			isa = PBXGroup;
 			children = (
+				5E0B77721D2E4DE3004F1C17 /* CounterReducer.swift */,
 			);
 			name = Reducers;
 			sourceTree = "<group>";
@@ -245,6 +251,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E0B77711D2E4D7E004F1C17 /* CounterActions.swift in Sources */,
+				5E0B77731D2E4DE3004F1C17 /* CounterReducer.swift in Sources */,
 				C3C1F9F91D2D57590028E783 /* AppState.swift in Sources */,
 				C3C1F9E51D2D52530028E783 /* ViewController.swift in Sources */,
 				C3C1F9E31D2D52530028E783 /* AppDelegate.swift in Sources */,

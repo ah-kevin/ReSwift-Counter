@@ -8,8 +8,8 @@
 
 import Foundation
 import ReSwift
-import ReSwiftRouter
+//import ReSwiftRouter
 struct AppState: StateType {
 	var counter: Int = 0
-	var navigationState = NavigationState()
+//	var navigationState = NavigationState()
 }
